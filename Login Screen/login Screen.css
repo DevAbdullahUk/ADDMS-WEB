@@ -1,0 +1,135 @@
+#title{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #50514F;
+    font-family:sans-serif;
+    font-size: 20px;
+    border-left: solid 20px #70C1B3;
+    padding: 5px;
+}
+
+#text_1{
+    position:fixed;
+    left: 1%;
+    width: 370px;
+}
+
+#text_2{
+    position:fixed;
+    right: 2%;
+    width: 170px;
+}
+#loginBox{
+    position: fixed;
+    left: 20%;
+    top: 25%;
+    height: 400px;
+    width: 1000px;
+}
+
+#loginBox #inputBox{
+    position: fixed;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+}
+
+#loginBox #imageBox{
+    position: absolute;
+    left: 300px;
+    background-color: #D9D9D9;
+    height: 400px;
+    width: 500px;
+}
+
+.LoginScreen_loginText{
+    color: #50514F;
+    font-family:sans-serif;
+    font-size: 13px;
+}
+#loginBox #inputBox #login_button{
+    position: absolute;
+    top:15px;
+    cursor: pointer;
+    left: 60px;
+}
+#loginBox #inputBox #Signup_button{
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    left: 160px;
+    border-bottom: solid #FFE066;
+}
+#loginScreenInputs{
+    position: absolute;
+    top: 75px;
+    left: 24px;
+}
+
+#loginScreenInputs .user_input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 250px;
+}
+
+#inputBox #submitButton{
+    background-color: #FFE066;
+    width: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 330px;
+    left: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#inputBox #submitButton:hover{
+    background-color: #FFE066;
+    width: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 330px;
+    left: 120px;
+    cursor: pointer;
+    box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.6s;
+}
+
+img{
+    position: relative;
+    left: 194px;
+    top:-7px;
+    width: 90%;
+    height: auto;
+}
+
+#loginScreen_texts{
+    position: relative;
+    font-family:sans-serif;
+    color: #247BA0;
+    left: 10px;
+    top: 10px;
+}
+
+#loginScreen_texts h1{
+    color: #8A8A8A;
+    font-size: 55px;
+    margin: -5px;
+}
+
+#loginScreen_texts p{
+    font-size: 40px;
+    margin: -5px;
+}
+
+#loginScreen_texts strong{
+    font-size: 30px;
+    margin: -5px;
+}
+
+
+
+
+
