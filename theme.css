@@ -1,0 +1,60 @@
+body{
+    background-color: #F3F3F3;
+}
+
+.Screen_top_bar{
+    position:fixed;
+    width: 100%;
+    top:-1px;
+    background-color: #293241;
+    left: -1px;
+    height: 25px;
+}
+.screen_top_bar_text{
+    top:3px;
+    color: #CCCCCC;
+    font-size-adjust: 0.58;
+    font-family:sans-serif;
+}
+
+.text_1{
+    position:fixed;
+    left: 1%;
+    width: 150px;
+    cursor: pointer;
+}
+
+.text_2{
+    cursor: pointer;
+    position:fixed;
+    right: 2%;
+    width: auto;
+}
+.text_3{
+    cursor: pointer;
+    position:fixed;
+    left: 15%;
+    width: auto;
+}
+.text_4{
+    cursor: pointer;
+    position:fixed;
+    left: 23%;
+    width: auto;
+}
+.text_5{
+    cursor: pointer;
+    position:fixed;
+    left: 33%;
+    width: auto;
+}
+
+.top_selected{
+    top:-1px;
+    padding-top: 4px;
+    background-color: #247BA0;
+    border-color: #247BA0;
+    border-style: solid;
+    border-width:0px 8px 2.5px 8px;
+    
+}
