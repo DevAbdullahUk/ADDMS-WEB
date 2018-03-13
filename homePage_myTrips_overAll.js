@@ -14,7 +14,6 @@ $(".OVER_ALL_TOP_BAR").removeClass("SELECTED_TOP_BAR");
 $(this).addClass("SELECTED_TOP_BAR");
 $(".DRIVING_TIPS_TOP_BAR").removeClass("SELECTED_TOP_BAR");
     
- addTrip("Saturday","January","23, 2018","Today Morning 9AM",2,80,2.3);
     
 } );
   

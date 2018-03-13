@@ -76,5 +76,39 @@
     font-weight:300;
     padding-left: 25px;
 }
+/*UNHIDEN */
+#OVERALL_VIEW_DIV{
+    visibility: hidden;
+}
 
+.DRIVING_TIPS_DIV .TOP{
+    background-color: white;
+    position: fixed;
+    top: 90px;
+    z-index: -1;
+    width: 100%;
+    left: -1px;
+    
+}
 
+.DRIVING_TIPS_DIV .TOP span{
+    font-family:sans-serif;
+    color: #F25F5C;
+    position: fixed;
+    left:170px;
+    width: 950px;
+    top: 120px;
+    
+}
+.DRIVING_TIPS_DIV .TOP span span{
+      top: 150px;
+       color:#333333;
+    text-align: justify;
+}
+
+.DRIVING_TIPS_DIV .TOP img{
+    height: 100px;
+    width: auto;
+    padding: 15px;
+    
+}
