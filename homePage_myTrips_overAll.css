@@ -53,62 +53,161 @@
     width: 80px;
     left: 8%;
 }
-.trips{
-    position: relative;
-    background-image: url(mapBackgroung.PNG);
-    height: 130px;
-    width: 550px;
-    left: 21%;
-    border-radius: 10px;
-}
-.trips p {
-    color: #247BA0;
-    padding-left: 25px;
-    padding-top: 15px;
-}
-.trips table td{
-    font-weight: bold;
-    color: #50514F;
-}
-.trips table .number {
-    color: #F25F5C;
-    font-size: 35px;
-    font-weight:300;
-    padding-left: 25px;
-}
+
 /*UNHIDEN */
 #OVERALL_VIEW_DIV{
     visibility: hidden;
 }
 
-.DRIVING_TIPS_DIV .TOP{
+#DRIVING_TIPS_DIV .TOP{
     background-color: white;
     position: fixed;
     top: 90px;
     z-index: -1;
     width: 100%;
     left: -1px;
-    
+    height: 200px
 }
 
-.DRIVING_TIPS_DIV .TOP span{
+#DRIVING_TIPS_DIV .TOP span{
     font-family:sans-serif;
     color: #F25F5C;
     position: fixed;
     left:170px;
     width: 950px;
-    top: 120px;
+    top: 140px;
     
 }
-.DRIVING_TIPS_DIV .TOP span span{
-      top: 150px;
-       color:#333333;
+#DRIVING_TIPS_DIV .TOP span span{
+    top: 170px;
+    color:#333333;
     text-align: justify;
 }
 
-.DRIVING_TIPS_DIV .TOP img{
+#DRIVING_TIPS_DIV .TOP img{
     height: 100px;
+    position: fixed;
     width: auto;
     padding: 15px;
-    
+    top:120px; 
+}
+
+.BOX1{
+	background-color: white;
+	font-family:sans-serif;
+	position: fixed;
+	top: 310px;
+	left: 40px;
+	width: 200px;
+	padding: 20px;
+	text-align:center;
+}
+.BOX1 .BOX1_INNER{
+	background-color: #70C1B3;
+	width: 200px;
+	position: fixed;
+	left:40px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.BOX2{
+	font-family:sans-serif;
+	position: fixed;
+	top: 470px;
+	left: 40px;
+	width: 200px;
+	padding: 20px;
+	text-align:center;
+}
+.BOX2 img{
+	height: 148.5px;
+	width: auto;
+	position: fixed;
+	left: 40px;
+}
+.BOX2 .BOX2_INNER{
+	background-color: #70C1B3;
+	width: 200px;
+	position: fixed;
+	margin-top: 130px;
+	left: 40px;
+	padding-right: 20px;
+	padding-left:20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.message1{
+	font-family:sans-serif;
+	position: fixed;
+	top: 310px;
+	left: 465px;
+	width:850px;
+	line-height: 190%;
+}
+.message1 .smallLine{
+	position: fixed;
+    left: 450px;
+    background: #70C1B3;
+    width: 3px;
+    height: 155px;
+}
+.message1 .signature{
+	color: #70C1B3;
+	position: fixed;
+	margin-top: 25px;
+	font-weight: bold;
+}
+.message2{
+	font-family:sans-serif;
+	position: fixed;
+	top:500px;
+	left:450px;
+	width:400px;
+	line-height: 190%;
+
+}
+.Quotation1{
+	color: #70C1B3;
+	position: fixed;
+	font-size: 70px;
+	top:480px;
+	left:405px;
+}
+
+.Quotation2{
+	color: #70C1B3;
+	position: fixed;
+	font-size: 70px;
+	top:635px;
+	left:720px;
+}
+
+.BOX3{
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	position:fixed;
+	top:460px;
+	width: 300px;
+	height: 200px;
+	left:1000px;
+}
+.BOX3 .BOX3_BUTTON{
+	background-color: #70C1B3;
+	position: fixed;
+	width: 60px;
+	text-align: center;
+	padding-top: 81.5px;
+	padding-bottom: 81.5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.BOX3 .BOX3_INNER{
+	position: fixed;
+	width: 220px;
+	padding-left: 70px;
+	margin-top: 60px;
+	text-align:center;
+	line-height: 150%
 }
