@@ -26,6 +26,7 @@
     top:20px;
      width: 75%;
     height: 300px;
+    background-color: black;
 }
 
 .date{
@@ -33,3 +34,46 @@
     color: #50514F;
     width: 80px;
     left: 8%;
+}
+
+.t2{
+    position: absolute;
+    height: 130px;
+    width: 900px;
+    left: 320px;
+    top: 300px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+td{
+    font-weight: bold;
+    color: #50514F;
+    
+}
+
+.number {
+    color: #F25F5C;
+    font-size: 35px;
+    font-weight:300;
+    text-align: center;
+}
+
+.vmessage{
+    position: absolute;
+    width: 750px;
+    height: 35px;
+    left: 330px;
+    top: 430px;
+}
+.button{
+    position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 1083.5px;
+    top: 430px;
+    background-color: #FFE066;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 0px;
+}
