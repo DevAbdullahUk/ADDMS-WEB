@@ -10,6 +10,7 @@
     height: 500px;
     width: 200px;
     color:#50514F;
+    overflow-y: auto;
 }  
 
 .accounts .add{
@@ -37,7 +38,7 @@
     color:#50514F;
     font-weight: bold;
     padding-bottom: 15px;
-    padding-left: 18px;
+    padding-left: 15px;
     
 }
 
@@ -117,4 +118,55 @@
 .cancel:hover{
     transition: 0.5s;
     background-color: #dbdbdb;
+}
+
+.Settings{
+    background-color: #D9D9D9;
+    height: 525px;
+    width: 600px;
+    position: fixed;
+    left: 450px;
+    top: 100px;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.Settings div{
+    font-family: sans-serif;
+    color: #50514F;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.box{
+    position: inherit;
+    height: 40px;
+    width: 500px;
+    color:#50514F;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.submit_button{
+    background-color: #FFE066;
+    width: 90px;
+    padding: 20px;
+    border: 0px;
+    position: absolute;
+    top: 430px;
+    left: 160px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.delete_button{
+    background-color: #F25F5C;
+    width: auto;
+    padding: 20px;
+    border: 0px;
+    position: absolute;
+    top: 430px;
+    left: 310px;
+    cursor: pointer;
+    text-align: center;
 }

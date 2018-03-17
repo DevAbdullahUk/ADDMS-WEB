@@ -11,12 +11,13 @@ $(document).ready(function () {
 // Add a new parent to the list pop-up
         $(".ok").click(
         function (event){
-            // hid the pop-up
+            // hide the pop-up
       $(".pop-up").css({
          'visibility' : 'hidden' 
       });
             // get the parent name from pop-up
-    $(".names").append( `<div class="name"> ${$(".newParent").val()} </div> `);       
+    $(".names").append( `<div class="name"> ${$(".newParent").val()} </div> `);
+    $(".newParent").val("");        
         });
     // hide the pop-up
             $(".cancel").click(
@@ -26,11 +27,11 @@ $(document).ready(function () {
          'visibility' : 'hidden' 
       });
         });
-   // add a funcation call for the fucking chiled 
+    
+   // attaching delete listener to parent element 
     var theParent = document.querySelector(".names"); 
     theParent.addEventListener("click", deleteIt); 
     
-    // the fucking function that will be called
     function deleteIt(e) {
          if (e.target !== e.currentTarget){
    
@@ -38,7 +39,7 @@ $(document).ready(function () {
          }
     }
     
-    // FUCK YOU Thank YOU
+    
 
 });
 
